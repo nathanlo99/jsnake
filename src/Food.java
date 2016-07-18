@@ -33,7 +33,7 @@ public class Food implements Entity {
 			g.drawOval((int) v.getX(), (int) v.getY(), radius - 1, radius - 1);
 		}
 	}
-	
+
 	// Attracts the food towards a vector on the screen.
 	// Used to attract food towards the player.
 	public void attractTowards(Vector2 v) {
